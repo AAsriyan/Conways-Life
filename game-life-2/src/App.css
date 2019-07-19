@@ -1,6 +1,6 @@
-/* body {
-	background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png);
-} */
+body {
+	background-image: url(./background-image.jpg);
+}
 
 .box {
 	display: inline-block;
@@ -12,11 +12,11 @@
 }
 
 .off {
-	background-color: lightgray;
+	background-color: white;
 }
 
 .on {
-	background-color: green;
+	background-color: red;
 }
 
 .box:hover {
@@ -50,4 +50,44 @@ h4 {
 
 h4 {
 	margin-top: 0px;
+}
+
+.buttons {
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.btn-toolbar {
+	display: flex;
+	justify-content: space-around;
+	margin: 40px 20px;
+}
+
+.rules-text {
+	max-width: 600px;
+	margin: 20px auto;
+	font-weight: bolder;
+}
+
+.rules-header {
+	margin-top: 30px;
+}
+
+.btn {
+	color: white;
+	background-color: rgb(59, 49, 49);
+}
+
+.btn-default {
+	color: white;
+}
+
+#dropdown-basic-button {
+	background-color: rgb(20, 20, 165);
+}
+
+.details {
+	max-width: 600px;
+	margin: 20px auto;
+	font-weight: bolder;
 }
