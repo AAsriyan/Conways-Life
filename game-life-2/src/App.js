@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Grid from './components/Grid';
 import Buttons from './components/Buttons';
+import Rules from './components/Rules';
 import './App.css';
 
 class App extends Component {
@@ -166,13 +167,21 @@ class App extends Component {
 					seed={this.seed}
 					gridSize={this.gridSize}
 				/>
+				<h2>Generations: {this.state.generation}</h2>
 				<Grid
 					gridFull={this.state.gridFull}
 					rows={this.rows}
 					cols={this.cols}
 					selectBox={this.selectBox}
 				/>
-				<h2>Generations: {this.state.generation}</h2>
+				<Rules />
+				<p className="details">
+					To check out the history and technical details of Conway's Game of
+					Life:{' '}
+					<a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">
+						Click Here
+					</a>
+				</p>
 			</div>
 		);
 	}
