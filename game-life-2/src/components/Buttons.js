@@ -7,13 +7,13 @@ class Buttons extends Component {
 	};
 	render() {
 		return (
-			<div>
+			<div className="buttons">
 				<ButtonToolbar>
 					<button className="btn btn-default" onClick={this.props.playButton}>
 						Play
 					</button>
 					<button className="btn btn-default" onClick={this.props.pauseButton}>
-						Pause
+						Stop
 					</button>
 					<button className="btn btn-default" onClick={this.props.clear}>
 						Clear
@@ -25,7 +25,7 @@ class Buttons extends Component {
 						Fast
 					</button>
 					<button className="btn btn-default" onClick={this.props.seed}>
-						Seed
+						Random
 					</button>
 					<DropdownButton
 						title="Grid Size"
