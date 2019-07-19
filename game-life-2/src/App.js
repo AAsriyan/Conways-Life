@@ -152,7 +152,7 @@ class App extends Component {
 
 	componentDidMount() {
 		this.seed();
-		this.playButton();
+		// this.playButton();
 	}
 	render() {
 		return (
