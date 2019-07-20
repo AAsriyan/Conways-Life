@@ -1,0 +1,4 @@
+[build]
+base = "game-life-2/"
+publish = "game-life-2/build/"
+command = "yarn build"
